@@ -1,0 +1,26 @@
+{
+  "name": "siika",
+  "version": "1.0.0",
+  "description": "Siika Virtual Designs is a software-driven fashion brand revolutionizing the design process and retail experience with fresh African-inspired clothing. ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredsiika/siika-fashion-brand.git"
+  },
+  "keywords": [
+    "african-inspired",
+    "clothing"
+  ],
+  "author": "Fred Siika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredsiika/siika-fashion-brand/issues"
+  },
+  "homepage": "https://github.com/fredsiika/siika-fashion-brand#readme"
+}
