@@ -1,6 +1,21 @@
 # Siika Virtually Designed
-Fashion as it should be
+Experience the fastest and most accurate virtual fitting room ever.
 ---
+## What Is Virtual Fitting Room?  App Info
+Try-on clothes before you buy with our pattern-based 3D garments virtual fitting room. This is a project that aims to generate accurate measurements and utilizes 3D body models of potential customers for fashion brands. 
+
+The powerful data behind the 3D models can then be used for virtual try-on (customer) and pre-production/fit stages (Brands) to bring greater intelligence to the design and product development process.
+
+Siika.io for Made-to-Measure is a simple solution for made-to-measure and bespoke companies which eliminates the time and expense needed to manually measure customers. 
+---
+**For Customers**
+- SAVE TIME
+No need to look at size charts and tape measure yourself.
+
+**For Businesses**
+With accurate 3D models of your customers you can now understand how to plan and execute production, adjust sizing charts, update grading rules, improve inventory management and get to market faster
+
+
 **This repository is still a work in progress (WIP)**
 Documentation missing in several sections.
 
@@ -39,7 +54,6 @@ Get updates on Siika Virtual Fashion Brand's development and chat with the proje
 - Follow [@fredsiika on Twitter](https://twitter.com/fredsiika).
 - Read and subscribe to [The Official Virtual Fashion Brand Blog]
 
-## App Info
 
 ## Creators
 
