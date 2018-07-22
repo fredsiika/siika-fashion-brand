@@ -1,6 +1,8 @@
 # Siika Virtually Designed
-
-**Fashion as it should be**
+Fashion as it should be
+---
+**This repository is still a work in progress (WIP)**
+Documentation missing in several sections.
 
 ## Quick Start
 
@@ -28,7 +30,7 @@ Comming soon
 
 Please read through our [contributing guidelines](https://github.com/fredsiika/siika-fashion-brand/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/fredsiika/siika-fashion-brand/tree/master/js/tests). All HTML and CSS should conform to the [Code Guide](https://github.com/fredsiika/code-guide), maintained by [Fred Siika](https://github.com/fredsiika).
+Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/fredsiika/siika-fashion-brand/tree/master/js/tests). All HTML and CSS should conform to the [Code Guide](http://codeguide.co/), maintained by maintained by [Mark Otto](https://github.com/mdo), one of Bootstrap's founders.
 
 ## Community
 
