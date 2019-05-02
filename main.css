@@ -1,0 +1,382 @@
+body {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1e0e62;
+    -webkit-font-smoothing: antialiased;
+}
+body.dev {
+    background: #ccc;
+    min-height: 10000px;
+}
+header, section {
+    overflow: hidden;
+}
+header {
+    positon: relative;
+}
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+nav {
+    width: 100%;
+}
+nav.transparent {
+    background: transparent;
+}
+a, button {
+    cursor: pointer;
+    transition: all 0.25s;
+}
+a:hover, button:hover {
+    text-decoration: none;
+}
+a:active, button:active, a:focus, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+button {
+    border: none;
+    outline: none !important;
+}
+input, textarea {
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #1e0e62;
+    resize: none;
+}
+label {
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin: 0;
+    font-weight: 700;
+    font-family: Poppins;
+}
+h1, h2 {
+    font-size: 58px;
+    line-height: 70px;
+}
+h1.big, h2.big {
+    font-size: 72px;
+    line-height: 86px;
+}
+h1.small, h2.small {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 42px;
+    line-height: 52px;
+}
+b, strong {
+    font-weight: 700;
+}
+.alert {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 970px;
+    z-index: 2000;
+}
+.alert-dismissable .close, .alert-dismissible .close {
+    top: 0;
+}
+.container {
+    position: relative;
+}
+::-moz-selection {
+    background: #e93a7d;
+    color: #fff;
+}
+::-webkit-selection {
+    background: #e93a7d;
+    color: #fff;
+}
+::selection {
+    background: #e93a7d;
+    color: #fff;
+}
+
+/* 2. Common responsive styles */
+/* Smaller than 1200px */
+@media (max-width: 1199.98px) {
+    header[class^="pt-"], section[class^="pt-"], header[class*=" pt-"], section[class*=" pt-"] {
+      padding-top: 80px;
+    }
+    header[class^="pb-"], section[class^="pb-"], header[class*=" pb-"], section[class*=" pb-"] {
+      padding-bottom: 80px;
+    }
+    h1 br, h2 br, h3 br, .text-adaptive br {
+      display: none;
+    }
+    h1, h2 {
+      font-size: 52px;
+      line-height: 62px;
+    }
+    h1.big, h2.big {
+      font-size: 62px;
+      line-height: 72px;
+    }
+    h1.small, h2.small {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    h3 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .navigation_mobile {
+      display: block;
+    }
+  }
+/* Smaller than 992px */
+@media (max-width: 991.98px) {
+    h1, h2 {
+      font-size: 42px;
+      line-height: 52px;
+    }
+    h1.big, h2.big {
+      font-size: 52px;
+      line-height: 62px;
+    }
+    h1.small, h2.small {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    h3 {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .text-adaptive.f-24 {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    .text-adaptive.f-22 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .text-adaptive.f-20 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .alert {
+      top: 10px;
+      left: 20px;
+      right: 20px;
+      transform: none;
+      width: auto;
+      padding-left: 40px;
+    }
+  }
+  /* Smaller than 768px */
+  @media (max-width: 767.98px) {
+    h1, h2 {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    h1.big, h2.big {
+      font-size: 42px;
+      line-height: 52px;
+    }
+    h1.small, h2.small {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    h3 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    .text-adaptive.f-24 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .text-adaptive.f-22 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .text-adaptive.f-20 {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .text-adaptive.f-18 {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .btn.lg {
+      height: 50px;
+      line-height: 50px;
+      padding: 0 30px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .btn.lg[class^="border-"], .btn.lg[class*=" border-"] {
+      line-height: 46px;
+    }
+    .btn.xl {
+      height: 60px;
+      line-height: 60px;
+      padding: 0 35px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .btn.xl[class^="border-"], .btn.xl[class*=" border-"] {
+      line-height: 56px;
+    }
+    .input.lg {
+      height: 50px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  /* Smaller than 640px */
+  @media (max-width: 639.98px) {
+    .video_popup iframe {
+      width: calc(100% - 30px);
+      height: calc((100vw - 30px) * 0.56);
+    }
+  }
+  /* Smaller than 576px */
+  @media (max-width: 575.98px) {
+    h1, h2 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    h1.big, h2.big {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    h1.small, h2.small {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    .btn.xl {
+      height: 50px;
+      line-height: 50px;
+      padding: 0 30px;
+    }
+    .btn.xl[class^="border-"], .btn.xl[class*=" border-"] {
+      line-height: 46px;
+    }
+  }
+  /* 3. Headers */
+  @media (max-width: 767.98px) {
+    .header_1 .text-adaptive {
+      margin-top: 20px;
+    }
+    .header_1 .buttons {
+      margin-top: 40px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .header_2 .text-adaptive {
+      margin-top: 20px;
+    }
+    .header_2 form {
+      margin-top: 40px;
+    }
+    .header_2 form .input {
+      text-align: center;
+      width: 100%;
+    }
+    .header_2 form .btn {
+      margin-left: 0;
+      margin-top: 15px;
+    }
+  }
+
+/* 4. Navigations */
+@media (max-width: 1199.98px) {
+    .navigation_2 a {
+      margin: 0 15px;
+    }
+    .navigation_2 .dropdown a {
+      margin: 0;
+    }
+  }
+/* 5. Contents */
+@media (max-width: 767.98px) {
+    .content_1 h2 {
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .content_2 .text-adaptive {
+      margin-top: 15px;
+    }
+  }
+  /* 6. Testimonials */
+  @media (max-width: 767.98px) {
+    .testimonial_2 .text-adaptive {
+      margin-top: 10px;
+      margin-bottom: 25px;
+    }
+  }
+  /* 7. Features */
+  @media (max-width: 1199.98px) {
+    .feature_1[class^="pb-"], .feature_1[class*=" pb-"] {
+      padding-bottom: 30px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .feature_1 .title {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .feature_1 .title br {
+      display: none;
+    }
+  }
+  @media (max-width: 1199.98px) {
+    .feature_2[class^="pb-"], .feature_2[class*=" pb-"] {
+      padding-bottom: 30px;
+    }
+    .feature_2 .description {
+      margin-top: 20px;
+    }
+  }
+
+/* * {
+    include: box-sizing(border-box);
+} */
+
+
+/* .jumbotron-fluid {
+    background: url('./video/noir_2017.mp4');
+    color: #ff0179;
+    em {
+        color: #666;
+        font-size: 16px;
+    }  
+} */
+
+
+/* video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    background: url(./video/noir_2017.mp4) no-repeat;
+    background-size: cover; 
+} */
+/* video { 
+    display: block; 
+} */

@@ -10,10 +10,14 @@
  */
 
 // Dependencies
-const http = require('http');
-const url = require('url');
-const StringDecoder = require('string_decoder').StringDecoder;
-const config = require('./lib/config');
-const fs = require('fs');
-const handlers = require('./lib/handlers');
-const helpers = require('./lib/helpers');
+// const http = require('http');
+// const url = require('url');
+// const StringDecoder = require('string_decoder').StringDecoder;
+// const config = require('./lib/config');
+// const fs = require('fs');
+// const handlers = require('./lib/handlers');
+// const helpers = require('./lib/helpers');
+
+// import another component
+import main from './main';
+main();

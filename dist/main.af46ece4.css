@@ -1,0 +1,101 @@
+body {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1e0e62;
+    -webkit-font-smoothing: antialiased;
+}
+body.dev {
+    background: #ccc;
+    min-height: 10000px;
+}
+header, section {
+    overflow: hidden;
+}
+header {
+    positon: relative;
+}
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+nav {
+    width: 100%;
+}
+nav.transparent {
+    background: transparent;
+}
+a, button {
+    cursor: pointer;
+    transition: all 0.25s;
+}
+a:hover, button:hover {
+    text-decoration: none;
+}
+a:active, button:active, a:focus, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+button {
+    border: none;
+    outline: none !important;
+}
+input, textarea {
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #1e0e62;
+    resize: none;
+}
+label {
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin: 0;
+    font-weight: 700;
+    font-family: Poppins;
+}
+h1, h2 {
+    font-size: 58px;
+    line-height: 70px;
+}
+/* * {
+    include: box-sizing(border-box);
+} */
+
+
+/* .jumbotron-fluid {
+    background: url('./video/noir_2017.mp4');
+    color: #ff0179;
+    em {
+        color: #666;
+        font-size: 16px;
+    }  
+} */
+
+
+/* video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    background: url(./video/noir_2017.mp4) no-repeat;
+    background-size: cover; 
+} */
+/* video { 
+    display: block; 
+} */
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
