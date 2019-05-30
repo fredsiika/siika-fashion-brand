@@ -28,5 +28,8 @@
     "homepage": "https://github.com/fredsiika/siika-fashion-brand#readme",
     "devDependencies": {
         "parcel-bundler": "^1.12.3"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1"
     }
 }

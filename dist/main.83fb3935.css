@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
+/* CSS Reset */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Variables  */
+
+:root {
+    --navy-blue: #374A67;
+    --dark: #0E1116;
+    --primary: #9E7B9Bf;
+    --secondary: #616283;
+}
+
+.bg-primary {
+    color: $navy-blue;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar.fixed-bottom.fa {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    /* width: 50%; */
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: inherit;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Remove the bullet points from font awesome icons */
+
+.social-icon1 {
+    list-style-type: none;
+    color: #CB9CF2;
+    background: #374A67;
+    padding: 20px;
+    /* position: relative; */
+}
+
+
+/* Buttons */
+
+#buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px;
+    width: 200px;
+    transition: all .3s ease;
+}
+
+.btn-solid {
+    background-image: linear-gradient(130deg, #fc00ff 0%, #00dbde 100%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    color: white;
+    font-weight: 900;
+}
+
+.effect-scale:hover {
+    transform: scale(1.05);
+}
+
+.btn-outline {
+    border: 4px solid #fc00ff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    color: #fc00ff;
+    font-weight: 900;
+}
+
+.btn-outline:hover {
+    box-shadow: 0px 2px 20px 5px #fc00ff;
+    color: #fc00ff;
+}
+
+.btn-outline:focus {
+    outline: 0;
+}
+
+.btn-roll {
+    background-color: transparent;
+    border: 4px solid #27BAE3;
+}
+
+.btn-roll span {
+    display: block;
+    position: relative;
+    transition: 0.3s ease-in-out all;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+    color: #27BAE3;
+    width: 100%;
+}
+
+.btn-roll span:after {
+    display: block;
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out all;
+    transform-origin: 50% 0;
+    transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+    color: #fc00ff;
+    width: 100%;
+}
+
+.btn-roll:hover span {
+    transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+}
+
+.btn-1 {
+    flex: 1 1 auto;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50px;
+    background-image: linear-gradient(130deg, #fc00ff 0%, #00dbde 100%);
+}
+
+.btn-1:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+}
+
+/*# sourceMappingURL=/main.83fb3935.css.map */
