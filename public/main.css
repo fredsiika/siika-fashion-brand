@@ -10,19 +10,26 @@
     padding: 0;
 }
 
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    /* background: url("https://vimeo.com/256227222#t=135s")no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /* Variables  */
 
-:root {
-    --navy-blue: #374A67;
-    --dark: #0E1116;
-    --primary: #9E7B9Bf;
-    --secondary: #616283;
-}
-
-.bg-primary {
-    color: $navy-blue;
-}
+:root {}
 
 
 /* Navigation bar */
@@ -166,3 +173,36 @@
     background-position: right center;
     /* change the direction of the change here */
 }
+
+
+/* Video header */
+
+
+/* .top-nav-collapse {
+    background-color: #7d8488 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #7d8488 !important;
+    }
+}
+
+.hm-gradient .full-bg-img {
+    background: -moz-linear-gradient(45deg, rgba(242, 34, 50, 0.5), rgba(255, 187, 54, 0.6) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(242, 34, 50, 0.5), rgba(255, 187, 54, 0.6) 100%);
+    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
+    }
+} */
