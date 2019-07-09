@@ -1,6 +1,6 @@
 # Siika Virtually Designed
 
-**Fashion as it should be**
+**Fashion as it should be.**
 
 ## Quick Start
 
